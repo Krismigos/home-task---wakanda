@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 29px;
+}
+
+.logo-name-text {
+  display: flex;
+  justify-content: center;
+}
+
+.logo__title {
+  align-items: center;
+  font-size: 24px;
+  margin-left: 8px;
+}
+
+.logo__svg {
+  margin: 0;
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 32px;
+}
+
+.navigation-list__item {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.list-item {
+  text-decoration: none;
+  color: black;
+}
+.btn__start {
+  width: 160px;
+  height: 46px;
+  padding: 3px 28px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: #0077c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__text {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* content */
+
+.content {
+  display: flex;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content__title {
+  padding-top: 144px;
+  top: 0;
+  width: 600px;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 75px;
+}
+
+.content__text {
+  margin-top: 27px;
+  margin-bottom: 32px;
+  width: 360px;
+  line-height: 24px;
+}
+
+.content-img {
+  padding-top: 43px;
+  position: relative;
+  z-index: 1;
+  right: 15%;
+}
+
+/* logo company */
+
+.logo-company-arr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 73px;
+}
+
+.logo__company {
+  padding: 72px 0;
+  margin: 0;
+}
+
+/* benefit */
+
+.benefit {
+  background-color: #0077c0;
+}
+.benfit-servis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0 40px 0;
+  width: 469px;
+}
+
+.benfit-servis__list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.benefits-servis__title {
+  font-size: 16px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.benefits-servis__text {
+  margin: 8px 0 40px 0;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #fff;
+}
+
+.benfit-servis__item {
+  width: 356px;
+  color: #fff;
+}
+
+.benefit-item-img {
+  text-align: left;
+  margin: 0;
+}
+
+.benfit-item__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 28px 0 16px 0;
+}
+
+.benfit-item__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 140px;
+}
+
+/* review */
+.review {
+  background-color: #fafafa;
+}
+
+.review__about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 97px 0 43px 0;
+}
+
+.review-about__text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #0077c0;
+}
+
+.review-about__title {
+  width: 541px;
+  margin: 16px 0 43px 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.review__comment {
+  display: flex;
+  justify-content: space-between;
+  gap: 44px;
+  flex-wrap: wrap;
+}
+
+.review-comment__card {
+  background-color: #ffffff;
+}
+.review-personal__info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.review-card__comment {
+  width: 316px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* footer */
+.footer {
+  margin-top: 126px;
+  background-color: #1d242b;
+  padding: 64px 163px 69px 164px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+}
+.footer-loogo__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer__text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+}
