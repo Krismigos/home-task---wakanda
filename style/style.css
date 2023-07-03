@@ -69,6 +69,7 @@
 
 .content {
   display: flex;
+  position: relative;
 }
 
 .content-box {
@@ -93,11 +94,19 @@
   line-height: 24px;
 }
 
-.content-img {
-  padding-top: 43px;
-  position: relative;
+.bisnes__man {
+  padding: 43px 0 0 39px;
   z-index: 1;
-  right: 15%;
+}
+.content-img {
+
+  background-image: url(../img/bg__man.png);
+  background-repeat: no-repeat;
+  width: 580px;
+  height: 581px;
+  position: absolute;
+  right: 0;
+  bottom: 3px;
 }
 
 /* logo company */
